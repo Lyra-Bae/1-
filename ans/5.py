@@ -5,7 +5,7 @@ def print_max():
 
     for i in range(0, 5):
         num = input()
-        numbers.append(num)
+        numbers.append(int(num))
     
     print(max(numbers))
     
